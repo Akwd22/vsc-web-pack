@@ -1,27 +1,38 @@
 {
     "name": "web-pack",
-    "displayName": "web-pack",
-    "description": "Web extension pack",
-    "version": "0.0.1",
+    "displayName": "Web Extension Pack",
+    "description": "Web Extension Pack",
+    "publisher": "Akwd",
+    "version": "0.0.0",
     "repository": "github:Akwd22/vsc-web-pack",
+    "scripts": {
+        "prepackage": "npm version patch --no-git-tag-version",
+        "package": "vsce package -o web-pack.vsix",
+        "postpackage": "git add -A && git commit -m \"New release\" && git push"
+    },
     "engines": {
         "vscode": "^1.64.0"
     },
     "categories": [
         "Extension Packs"
     ],
-    "extensionPack": [ 
+    "extensionPack": [
         "akamud.vscode-caniuse",
         "pranaygp.vscode-css-peek",
-        "sporiley.css-auto-prefix",
-        "usernamehw.errorlens",
         "dbaeumer.vscode-eslint",
         "ecmel.vscode-html-css",
-        "mkaufman.HTMLHint",
-        "Zignd.html-css-class-completion",
         "sburg.vscode-javascript-booster",
         "ritwickdey.LiveServer",
         "esbenp.prettier-vscode",
-        "WallabyJs.quokka-vscode"
-    ]
+        "WallabyJs.quokka-vscode",
+        "christian-kohler.npm-intellisense",
+        "xdebug.php-debug",
+        "bmewburn.vscode-intelephense-client",
+        "neilbrayfield.php-docblocker",
+        "phproberto.vscode-php-getters-setters",
+        "vunguyentuan.vscode-css-variables"
+    ],
+    "devDependencies": {
+        "vsce": "^2.10.2"
+    }
 }
