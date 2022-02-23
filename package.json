@@ -1,7 +1,8 @@
 {
     "name": "web-pack",
-    "displayName": "web-pack",
-    "description": "Web extension pack",
+    "displayName": "Web Extension Pack",
+    "description": "Web Extension Pack",
+    "publisher": "Akwd",
     "version": "0.0.1",
     "repository": "github:Akwd22/vsc-web-pack",
     "engines": {
