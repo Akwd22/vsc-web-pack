@@ -1,0 +1,27 @@
+{
+    "name": "web-pack",
+    "displayName": "web-pack",
+    "description": "Web extension pack",
+    "version": "0.0.1",
+    "repository": "github:Akwd22/vsc-web-pack",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "akamud.vscode-caniuse",
+        "pranaygp.vscode-css-peek",
+        "sporiley.css-auto-prefix",
+        "usernamehw.errorlens",
+        "dbaeumer.vscode-eslint",
+        "ecmel.vscode-html-css",
+        "mkaufman.HTMLHint",
+        "Zignd.html-css-class-completion",
+        "sburg.vscode-javascript-booster",
+        "ritwickdey.LiveServer",
+        "esbenp.prettier-vscode",
+        "WallabyJs.quokka-vscode"
+    ]
+}
