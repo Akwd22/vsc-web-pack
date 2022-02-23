@@ -3,7 +3,7 @@
     "displayName": "Web Extension Pack",
     "description": "Web Extension Pack",
     "publisher": "Akwd",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "repository": "github:Akwd22/vsc-web-pack",
     "engines": {
         "vscode": "^1.64.0"
@@ -23,6 +23,8 @@
         "sburg.vscode-javascript-booster",
         "ritwickdey.LiveServer",
         "esbenp.prettier-vscode",
-        "WallabyJs.quokka-vscode"
+        "WallabyJs.quokka-vscode",
+        "eg2.vscode-npm-script",
+        "christian-kohler.npm-intellisense"
     ]
 }
