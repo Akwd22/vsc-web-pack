@@ -25,6 +25,10 @@
         "esbenp.prettier-vscode",
         "WallabyJs.quokka-vscode",
         "eg2.vscode-npm-script",
-        "christian-kohler.npm-intellisense"
+        "christian-kohler.npm-intellisense",
+        "xdebug.php-debug",
+        "bmewburn.vscode-intelephense-client",
+        "neilbrayfield.php-docblocker",
+        "phproberto.vscode-php-getters-setters"
     ]
 }
