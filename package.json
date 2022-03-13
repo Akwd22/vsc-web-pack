@@ -3,7 +3,7 @@
     "displayName": "Web Extension Pack",
     "description": "Web Extension Pack",
     "publisher": "Akwd",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "repository": "github:Akwd22/vsc-web-pack",
     "engines": {
         "vscode": "^1.64.0"
