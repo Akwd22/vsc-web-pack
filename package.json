@@ -3,7 +3,7 @@
     "displayName": "Web Extension Pack",
     "description": "Web Extension Pack",
     "publisher": "Akwd",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "repository": "github:Akwd22/vsc-web-pack",
     "engines": {
         "vscode": "^1.64.0"
@@ -11,7 +11,7 @@
     "categories": [
         "Extension Packs"
     ],
-    "extensionPack": [ 
+    "extensionPack": [
         "akamud.vscode-caniuse",
         "pranaygp.vscode-css-peek",
         "sporiley.css-auto-prefix",
@@ -29,6 +29,7 @@
         "xdebug.php-debug",
         "bmewburn.vscode-intelephense-client",
         "neilbrayfield.php-docblocker",
-        "phproberto.vscode-php-getters-setters"
+        "phproberto.vscode-php-getters-setters",
+        "vunguyentuan.vscode-css-variables"
     ]
 }
