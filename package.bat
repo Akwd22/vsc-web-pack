@@ -1,2 +1,2 @@
 @echo off
-vsce package
+npm run package

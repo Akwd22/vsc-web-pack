@@ -3,7 +3,7 @@
     "displayName": "Web Extension Pack",
     "description": "Web Extension Pack",
     "publisher": "Akwd",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "repository": "github:Akwd22/vsc-web-pack",
     "scripts": {
         "prepackage": "npm version patch --no-git-tag-version",
