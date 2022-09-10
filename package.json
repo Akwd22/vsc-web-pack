@@ -3,7 +3,7 @@
     "displayName": "Web Extension Pack",
     "description": "Web Extension Pack",
     "publisher": "Akwd",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "repository": "github:Akwd22/vsc-web-pack",
     "scripts": {
         "prepackage": "npm version patch --no-git-tag-version",
@@ -30,7 +30,8 @@
         "bmewburn.vscode-intelephense-client",
         "neilbrayfield.php-docblocker",
         "phproberto.vscode-php-getters-setters",
-        "vunguyentuan.vscode-css-variables"
+        "vunguyentuan.vscode-css-variables",
+        "burkeholland.simple-react-snippets"
     ],
     "devDependencies": {
         "vsce": "^2.10.2"
